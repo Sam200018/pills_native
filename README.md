@@ -1,31 +1,30 @@
-# pills
+# Pills
 
-This proyect is because... when my parents need a medicine always tell **me** to search it.
+This project is because... when my parents need a medicine always tell **me** to search it.
 
 ![image](https://c.tenor.com/xVfuAW6OXp8AAAAC/desesperado-desesperacion.gif)
 
-Sometimes you got medicines in your house, and you don't remember waht its use or those are experied. This app help you to organice your medicines and try to oriented how to use the things that you don't need because it could help other people (for me, obviously, to learn Flutter and **publlish my firt app** )
+Sometimes you have medicines in your house, and you don't remember what they are for or which ones have expired. This app helps you organize your meds and tries to guide you on how to use things you don't need because it might help other people.
 
-#### Things what we have learned
+#### Things we have learned
 
-- Firebase
-- MVC
+- Native App Development
 - Android SDK
-- Navite App
+- MVC
 
 ![image](https://media2.giphy.com/media/ywH2Dm9w0XFAHf0FwL/giphy.gif)
 
 ## Description
 
-My application use auth with credentials and Google, we have created the Login Page and Sign Up page, to have the users registration to have the control of the medicines in your house, to do this you have to create a house or join one. This because you can organice your medicines with the people in your house and have more control on those, when you create a house your kit is empty and you can add more medicines with a simple button, when you want to join to an existing house you will have to tell one the member of the existing house that share a simple QR code with you and you use the button "Unirse a una casa" to open your camera then scan this code to join.
+This application uses authentication with credentials and Google, we have created the login page and the registration page, for users to register and have control of the medicines in their house, to do this, you must create a house or join to one This is because you can organize your medicines with the people in your house and have more control over them, when you create a house your kit is empty and you can add more medicines with a simple button, when you want to join an existing house you will have to tell one of existing house members who share a simple QR code with you and use the "Join a house" button to open your camera and then scan this code to join.
 
-Then you have a house you can add new medicines to it and all the members house can see it and edit, and delete with a simple dismissable, the forms in my applications have validation because we need a especific information to help to improve your organization. The add medicine form you have to give us: Name, dose, units, amount, due date and active compounds.
+Then you have a house that you can add new drugs to and can be viewed and edited by all members of the house, and deleted with a simple dismiss, the forms in my apps have validation because we need specific information to help improve your organization. You have to give us the form to add medicine: Name, dose, units, quantity, expiration date and active ingredients.
 
-This app will have a side menu with all the setting and information that you need to organize the better way your medicines and kits in your house
-
+This app will have a side menu with all the settings and information you need to organize your medicines and first-aid kits in the best way at home
 ### Technologies
 
-We use Kotlin...
+* Kotlin
+* Firebase
 
 ### Challenges
 
@@ -38,9 +37,8 @@ This project is a starting point for a Native application.
 
 A few resources to get you started if this is your first Native project:
 
-- 
 
 ## Credits
  - Samuel Bautista ()
- - Brandon 
+ - Brandon Herrera
  

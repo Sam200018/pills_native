@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.1035" />
+        <entry key="app/src/main/res/drawable/ic_user_24dp.xml" value="0.1765" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.21" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

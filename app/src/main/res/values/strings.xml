@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pills</string>
+    <string name="login_title">Inicia sesión</string>
+    <string name="user">Usuario</string>
+    <string name="passwd">Contraseña</string>
+    <string name="or">o</string>
+    <string name="not_account">¿Aún no tienes una cuenta?</string>
+    <string name="regiter_title">Regístrate</string>
 </resources>

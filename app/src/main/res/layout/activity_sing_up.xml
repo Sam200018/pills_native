@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".Login">
+    tools:context=".SingUp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -23,18 +22,18 @@
             android:layout_marginBottom="30dp"
             android:src="@drawable/ic_group_48"
             android:tint="@color/text_1"
-            app:layout_constraintBottom_toTopOf="@+id/login_title"
+            app:layout_constraintBottom_toTopOf="@+id/register_title"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/login_title"
+            android:id="@+id/register_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:fontFamily="@font/sansbold"
-            android:text="@string/login_title"
+            android:text="@string/register_title"
             android:textAlignment="center"
             android:textColor="@color/text_1"
             android:textSize="30sp"
@@ -56,7 +55,7 @@
             app:layout_constraintBottom_toTopOf="@id/login_pswd"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login_title">
+            app:layout_constraintTop_toBottomOf="@+id/register_title">
             <com.google.android.material.textfield.TextInputEditText
                 android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
@@ -80,7 +79,7 @@
             app:endIconTint="@color/text_2"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            app:layout_constraintBottom_toTopOf="@id/login_action"
+            app:layout_constraintBottom_toTopOf="@id/signup_action"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/login_user" >
@@ -95,7 +94,7 @@
 
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/login_action"
+            android:id="@+id/signup_action"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -103,7 +102,7 @@
             android:layout_marginRight="30dp"
             android:layout_marginBottom="15dp"
             android:fontFamily="@font/sansbold"
-            android:text="@string/login_action"
+            android:text="@string/register_action"
             app:layout_constraintBottom_toTopOf="@id/login_or"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -122,7 +121,7 @@
             app:layout_constraintBottom_toTopOf="@id/sign_in_button"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/login_action"/>
+            app:layout_constraintTop_toBottomOf="@id/signup_action"/>
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/sign_in_button"
@@ -143,21 +142,22 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/sign_in_button"
             app:layout_constraintBottom_toBottomOf="parent">
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:textColor="@color/text_2"
-                android:text="@string/not_account"/>
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="wrap_content"
-                android:padding="0dp"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:background="@color/fui_transparent"
-                android:textColor="@color/blue"
-                android:text="@string/register_title"/>
+<!--            <com.google.android.material.textview.MaterialTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textColor="@color/text_2"-->
+<!--                android:text="@string/not_account"/>-->
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:padding="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="15sp"-->
+<!--                android:background="@color/fui_transparent"-->
+<!--                android:textColor="@color/blue"-->
+<!--                android:text="@string/register_title"/>-->
 
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

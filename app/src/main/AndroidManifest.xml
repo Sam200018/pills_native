@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pills">
         <activity
+            android:name=".SingUp"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false"
-            android:theme="@style/Theme.Pills.Light"/>
+            android:theme="@style/Theme.Pills.Light" />
         <activity
             android:name=".Splash"
             android:exported="true">

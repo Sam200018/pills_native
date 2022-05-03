@@ -3,9 +3,13 @@
     <string name="login_title">Inicia sesión</string>
     <string name="login_action">Iniciar sesión</string>
     <string name="user">Usuario</string>
+    <string name="name">Nombre</string>
+    <string name="LastName">Apellido</string>
     <string name="passwd">Contraseña</string>
+    <string name="confirmPassword">Confirmar contraseña</string>
     <string name="or">o</string>
     <string name="not_account">¿Aún no tienes una cuenta?</string>
+    <string name="account_exist">Ya tengo cuenta</string>
     <string name="register_title">Regístrate</string>
     <string name="register_action">Crear cuenta</string>
 </resources>

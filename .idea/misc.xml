@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.2455" />
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/drawable/ic_group_48.xml" value="0.192" />
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.192" />
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/drawable/ic_lock.xml" value="0.192" />
@@ -11,7 +12,7 @@
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/layout-w936dp/activity_login.xml" value="0.276953125" />
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/layout/activity_login.xml" value="0.3692708333333333" />
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/layout/activity_sing_up.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/layout/activity_sing_up.xml" value="0.264" />
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/layout/activity_splash.xml" value="0.3692708333333333" />
         <entry key="..\:/Users/SAM/AndroidStudioProjects/Pills/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2455" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.21" />
